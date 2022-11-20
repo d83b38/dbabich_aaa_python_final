@@ -1,0 +1,13 @@
+test_error_empty (test_one_hot_encoding.TestOneHotEncoder)
+check empty throws TypeError ... ok
+test_fit_transform (test_one_hot_encoding.TestOneHotEncoder)
+main logic test ... ok
+test_not_in (test_one_hot_encoding.TestOneHotEncoder)
+test wrong calcaulation ... ok
+test_single_string (test_one_hot_encoding.TestOneHotEncoder)
+test single string ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
