@@ -1,0 +1,27 @@
+Trying:
+    encode('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode(322) # doctest: +ELLIPSIS
+Expecting:
+    Traceback (most recent call last):
+    ...
+    TypeError: 'int' object is not iterable
+ok
+Trying:
+    encode('sos') # doctest: +ELLIPSIS
+Expecting:
+    Traceback (most recent call last):
+    ...
+    KeyError: ...
+ok
+2 items had no tests:
+    morse
+    morse.decode
+1 items passed all tests:
+   3 tests in morse.encode
+3 tests in 3 items.
+3 passed and 0 failed.
+Test passed.
