@@ -11,7 +11,7 @@
         "price": 100
       },
       "pepperoni": {
-        "name": "mepperoni",
+        "name": "pepperoni",
         "icon": "🍕",
         "recipe": [
           "tomato sauce",

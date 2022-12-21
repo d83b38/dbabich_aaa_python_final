@@ -37,3 +37,6 @@ class Pizza:
         return self.name == other.name\
             and set(self.recipe) == set(other.recipe)\
             and self.size == other.size
+
+    def __str__(self) -> str:
+        return f'{self.icon} {self.name} size {self.size}'
