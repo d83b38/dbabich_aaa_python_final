@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.10.6, pytest-7.2.0, pluggy-1.0.0 -- /opt/homebrew/opt/python@3.10/bin/python3.10
+cachedir: .pytest_cache
+rootdir: /Users/d83b38/dbabich_aaa_python_final/issue_2
+collecting ... collected 3 items
+
+test_morse.py::test_decode[HI-MARK-.... .. -....- -- .- .-. -.-] PASSED  [ 33%]
+test_morse.py::test_decode[88005553535----.. ---.. ----- ----- ..... ..... ..... ...-- ..... ...-- .....] PASSED [ 66%]
+test_morse.py::test_decode[SOS-... --- ...] PASSED                       [100%]
+
+============================== 3 passed in 0.01s ===============================

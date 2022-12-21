@@ -1,0 +1,39 @@
+{
+    "menu": {
+      "margherita": {
+        "name": "margherita",
+        "icon": "🧀",
+        "recipe": [
+          "tomato sauce",
+          "mozzarella",
+          "tomatoes"
+        ],
+        "price": 100
+      },
+      "pepperoni": {
+        "name": "pepperoni",
+        "icon": "🍕",
+        "recipe": [
+          "tomato sauce",
+          "mozzarella",
+          "pepperoni"
+        ],
+        "price": 115
+      },
+      "hawaiian": {
+        "name": "hawaiian",
+        "icon": "🍍",
+        "recipe": [
+          "tomato sauce",
+          "mozzarella",
+          "chicken",
+          "pineapples"
+        ],
+        "price": 125
+      }
+    },
+    "allowed_sizes": [
+      "L",
+      "XL"
+    ]
+  }
